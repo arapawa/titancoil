@@ -9,9 +9,15 @@ $.getJSON(url).done(data => {
   const moreInformation = data.fields['More Information Html'];
 
   $('#challenge-container').html(`
-    <img src=${image} />
-    <h1>${title}</h1>
-    <p>${instructions}</p>
-    <p>${moreInformation}</p>
+    <div id="image-wrapper">
+      <img src=${image} />
+    </div>
+    <div id="content-wrapper">
+      <h1>${title}</h1>
+      <h3>About this activity</h3>
+      <p>${instructions}</p>
+      <h3>More information</h3>
+      <p>${moreInformation}</p>
+    </div>
   `);
 });

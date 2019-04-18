@@ -1,10 +1,22 @@
 #challenge-container {
   margin: 20px auto;
-  width: 440px;
+  width: 650px;
 }
 
 #challenge-container img {
   width: 100%;
+}
+
+#challenge-container h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 0.5em;
+}
+
+#challenge-container h3 {
+  font-size: 1.2em;
+  margin-top: 1em;
 }
 
 .brandingBckgrndColor {
